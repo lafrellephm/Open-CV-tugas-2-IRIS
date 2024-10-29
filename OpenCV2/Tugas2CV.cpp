@@ -73,7 +73,7 @@ int main()
             circle(frameResized, posisiBola, 5, Scalar(255, 0, 0), -1);
 
             // posisi bola teks di vidnya
-            putText(frameResized, "Posisi Bola: (" + to_string(jarakX) + " cm, " + to_string(jarakY) + " cm)", 
+            putText(frameResized, "Posisi Robot: (" + to_string(jarakX) + " cm, " + to_string(jarakY) + " cm)", 
                     Point(10, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(0, 0, 255), 2);
 
             // cout << "Posisi Piksel: (" << posisiRelatif.x << ", " << posisiRelatif.y << ")" << endl;
